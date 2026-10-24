@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local/private research data (do not publish without explicit authorization)
+察汗乌苏数据/
+监测指标公式及示例测点参数统计/
+data/
+private_data/
+
+# Model and generated outputs
+outputs/
+comparison_outputs/
+.test-temp/
+.pytest_cache/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
